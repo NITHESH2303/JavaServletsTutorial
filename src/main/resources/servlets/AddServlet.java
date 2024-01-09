@@ -1,9 +1,11 @@
-package com.servlets;
+package servlets;
 
 import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.*;
 import java.io.IOException;
 
+@WebServlet("/add")
 public class AddServlet extends HttpServlet {
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
         int i = Integer.parseInt(request.getParameter("num1"));
@@ -14,6 +16,6 @@ public class AddServlet extends HttpServlet {
         HttpSession session = request.getSession();
         session.setAttribute("k", k);
 //            response.getWriter().println("result: " + sum);
-        response.sendRedirect("sq?k="+k);
+        response.sendRedirect("sq");
     }
 }

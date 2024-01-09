@@ -1,15 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<form action="home">
-    Enter 1st Num : <label>
-    <input type="text" name="num1">
-</label><br>
-    Enter 2nd Num : <label>
-    <input type="text" name="num2">
-</label><br>
-    <input type="submit">
+<%@ page contentType="text/html;charset=UTF-8" language="java" errorPage="error.jsp" %>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Error</title>
+</head>
+<body bgcolor="aqua">
 
-</form>
+<%
+    int k = 0/0;
+%>
 </body>
 </html>
