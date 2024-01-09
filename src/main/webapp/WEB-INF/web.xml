@@ -52,8 +52,8 @@
 <!--    <param-name>Phone</param-name>-->
 <!--    <param-value>Redmi</param-value>-->
 <!--  </context-param>-->
-  <welcome-file-list>
-    <welcome-file>profile.jsp</welcome-file>
-  </welcome-file-list>
+<!--  <welcome-file-list>-->
+<!--    <welcome-file>display.jsp</welcome-file>-->
+<!--  </welcome-file-list>-->
 
 </web-app>

@@ -5,16 +5,6 @@
     <title>Add</title>
 </head>
 <body bgcolor="aqua">
-    <%--
-        <% %> tag -> Scriplet
-        jsp converts every content into this tag to servlet
-
-        JSP Directive
-            @page -> import, specify language
-            @include -> header, footer
-            @taglib ->use external library -> mention URI
-
-    --%>
     <%
         int i = Integer.parseInt(request.getParameter("num1"));
         int j = Integer.parseInt(request.getParameter("num2"));

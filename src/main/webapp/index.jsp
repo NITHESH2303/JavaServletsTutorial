@@ -2,12 +2,21 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>Error</title>
+    <title>Index</title>
 </head>
 <body bgcolor="aqua">
 
-<%
-    int k = 0/0;
-%>
+<%--<form action="add">--%>
+<%--    Enter num1:<input type="text" name="num1"><br>--%>
+<%--    Enter num2:<input type="text" name="num2"><br>--%>
+<%--    <input type="submit">--%>
+<%--</form>--%>
+
+<% response.sendRedirect("DemoServlet"); %>
+
+<%--<%--%>
+<%--    --%>
+<%--    int k = 0/0;--%>
+<%--%>--%>
 </body>
 </html>
